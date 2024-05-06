@@ -50,10 +50,10 @@ function buildship_chat_widget_scripts()
         window.buildShipChatWidget.config.openOnLoad = Boolean($open_on_load);
         window.buildShipChatWidget.config.disableErrorAlert = Boolean($disable_error_alert);
 
-        console.log('responseIsAStream: $response_is_a_stream', Boolean($response_is_a_stream));
-        console.log('closeOnOutsideClick: $close_on_outside_click', Boolean($close_on_outside_click));
-        console.log('openOnLoad: $open_on_load', Boolean($open_on_load));
-        console.log('disableErrorAlert: $disable_error_alert', Boolean($disable_error_alert));
+        // console.log('responseIsAStream: $response_is_a_stream', Boolean($response_is_a_stream));
+        // console.log('closeOnOutsideClick: $close_on_outside_click', Boolean($close_on_outside_click));
+        // console.log('openOnLoad: $open_on_load', Boolean($open_on_load));
+        // console.log('disableErrorAlert: $disable_error_alert', Boolean($disable_error_alert));
 
         let open = window.buildShipChatWidget.config.openOnLoad;
         let button = document.querySelector('[data-buildship-chat-widget-button]');

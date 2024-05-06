@@ -26,7 +26,7 @@ class ChatWidgetAdmin
     $this->register_fields();
 
     $hook_suffix = add_options_page(
-      __('Buildship Chat Widget', 'chat-widget'),
+      __('BuildShip Chat Widget', 'chat-widget'),
       __('Settings', 'chat-widget'),
       'manage_options',
       CHAT_WIDGET_SCREEN,
@@ -158,8 +158,15 @@ class ChatWidgetAdmin
     ?>
     <div class="buildship-chat-widget-wrap">
       <div class="buildship-chat-widget-header">
-        <img src="<?php echo plugins_url("/assets/images/buildship.png", __FILE__); ?>" />
-        <h1><?php esc_html_e('Buildship Chat Widget', 'buildship-chat-widget'); ?></h1>
+        <a href="https://buildship.com/" target="_blank">
+          <img src="<?php echo plugins_url("/assets/images/buildship.png", __FILE__); ?>" />
+        </a>
+      </div>
+      <h1><?php esc_html_e('BuildShip AI Chat Widget', 'buildship-chat-widget'); ?></h1>
+      <div class="buildship-chat-widget-links">
+        <a href="https://buildship.com/" target="_blank">BuildShip</a>
+        <a href="https://github.com/rowyio/buildship-chat-widget/tree/main" target="_blank">Documentation</a>
+        <a href="https://buildship.com/chat-widget/city-advisor" target="_blank">Live Demo</a>
       </div>
       <form action="options.php" method="post" novalidate="novalidate">
         <?php settings_fields(CHAT_WIDGET_SCREEN); ?>
