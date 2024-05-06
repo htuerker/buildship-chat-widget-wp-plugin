@@ -5,11 +5,11 @@
  *
  * @wordpress-plugin
  * Plugin Name:       Buildship Chat Widget
- * Plugin URI:        https://buildship.com
+ * Plugin URI:        https://github.com/rowyio/buildship-chat-widget
  * Description:       BuilShip Chat Widget Plugin
- * Author:            Plugin Contributors
+ * Author:            BuildShip
  * Version:           0.1.0
- * Author URI:        https://github.com/rowyio
+ * Author URI:        https://buildship.com
  * Network:           True
  * Text Domain:       buildship
  */
