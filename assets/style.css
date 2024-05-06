@@ -1,14 +1,14 @@
 .buildship-chat-widget-container {
   position: fixed;
   bottom: 2rem;
-  left: 2rem;
+  right: 2rem;
   z-index: 9999;
 }
 
 .buildship-chat-widget-container > button {
   padding: 1rem 2rem;
   color: #ffffff;
-  background-color: red;
+  background-color: #2C91ED;
   border-radius: 1.5rem;
   border: none;
   cursor: pointer;
